@@ -125,7 +125,7 @@ const RandomTravel = () => {
 
       
       <div className="random-banner">
-        <img src="/img/img2.png" alt="여름방학 배너" />
+        <img src={`${process.env.PUBLIC_URL}/img/img2.png`} alt="여름방학 배너" />
       </div>
     </div>
   );
