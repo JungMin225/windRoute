@@ -1,0 +1,106 @@
+.random-travel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+}
+
+.random-subtitle {
+  text-align: left;
+  font-size: 1rem;
+  color: #000;
+  margin: 20px;
+  font-family: "gulim", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.random-title {
+  font-family: "gulim", sans-serif;
+font-weight: 600;
+font-style: normal;
+  margin: 0.5rem 0 2rem;
+}
+
+.random-input {
+  width: 80%;
+  max-width: 500px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  font-size: 1rem;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.random-input:focus {
+  border-color: #000;
+}
+
+.random-button {
+  background-color: rgb(108, 160, 255);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-family: "gulim", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.random-button:hover {
+  background-color: #444;
+}
+
+.random-result {
+  font-size: 1.25rem;
+  color: #000;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.random-banner {
+  position:absolute;
+  width: 100%;
+  top:0;
+  display: flex;
+  justify-content: center;
+  z-index:-1;
+  opacity: 50%;
+}
+
+/* RandomModal.css */
+.modal {
+  position: fixed; top:0; left:0;
+  width:100vw; height:100vh;
+  background: rgba(0,0,0,0.3);
+  display:flex; justify-content:center; align-items:center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 10px;
+  width: 80vw; max-width: 800px;
+  height: 60vh; max-height: 80vh;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px; right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #000;
+}
+

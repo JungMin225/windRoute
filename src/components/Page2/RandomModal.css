@@ -1,0 +1,66 @@
+.modal-body {
+  display: flex;
+  flex: 1;
+}
+
+.random-modal-image {
+  flex: 1;
+  background: #fff;
+  display: flex; justify-content:center; align-items:center;
+  margin-right: 20px;
+}
+
+.random-modal-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.modal-text {
+  flex: 1;
+  padding: 1rem;
+  padding-right: 0;
+  color: #000;
+  line-height: 1.8;
+}
+
+.modal-text h2 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  font-family: "gulim", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.modal-text p {
+  margin: 0.3rem 0;
+  font-family: "gulim", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.repick-button {
+  position:absolute;
+  top:85%;
+  right: 25%;
+  background-color: rgb(108, 160, 255);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-family: "gulim", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+/* hover 효과 (선택) */
+.repick-button:hover {
+  background-color: rgb(65, 132, 255);
+}
