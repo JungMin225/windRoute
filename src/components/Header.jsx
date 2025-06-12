@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <nav style={styles.nav}>
       <div style={styles.logoContainer}>
-        <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="로고" style={styles.logoImage} />
+        <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="로고" style={styles.logoImage} />
         <h2 style={styles.logo}>바람길</h2>
       </div>
 
